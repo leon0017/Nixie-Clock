@@ -1302,6 +1302,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3698,6 +3821,18 @@
 		)
 	)
 	(junction
+		(at 67.31 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0194262f-a340-44e2-94d0-0f8b9beae1f1")
+	)
+	(junction
+		(at 158.75 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dc1833d-7458-4a6b-8e6e-6f8d21aba4b8")
+	)
+	(junction
 		(at 39.37 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3708,6 +3843,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e8f1c0d-1fb5-40c6-9128-0d3b264509ba")
+	)
+	(junction
+		(at 63.5 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93d16bb3-f935-42b3-9ffe-a4061f4bbc59")
 	)
 	(junction
 		(at 106.68 143.51)
@@ -3726,6 +3867,36 @@
 		(diameter 0)
 		(color 72 219 255 1)
 		(uuid "b12a0f36-b1a2-4937-a87a-b41ee4faca4d")
+	)
+	(junction
+		(at 64.77 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ccb273-74b7-4261-ab37-94d747f51e75")
+	)
+	(junction
+		(at 48.26 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5f3957-7e61-4a4d-95b6-2eb36f2b6da3")
+	)
+	(junction
+		(at 66.04 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ab1cfc-7949-495c-96db-bd4f60b8acc9")
+	)
+	(junction
+		(at 64.77 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72a64cb-0e3e-4306-834b-85e7523af531")
+	)
+	(junction
+		(at 48.26 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7586e86-bf77-4e0a-90c7-edf3bbe5a160")
 	)
 	(wire
 		(pts
@@ -3981,6 +4152,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 68.58) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5d3d59-9fa7-4b78-8257-0fea09f5c3f6")
+	)
+	(wire
+		(pts
 			(xy 227.33 217.17) (xy 245.11 217.17)
 		)
 		(stroke
@@ -4038,6 +4219,16 @@
 			(type default)
 		)
 		(uuid "0ea8a822-8f3f-4ae0-bb66-8085a41faff1")
+	)
+	(wire
+		(pts
+			(xy 66.04 207.01) (xy 66.04 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eec71a3-a4be-42b1-b9e5-ad77e159e149")
 	)
 	(wire
 		(pts
@@ -4191,6 +4382,17 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 130.81) (xy 59.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 92 255 1)
+		)
+		(uuid "183c6b81-40e7-48a0-8a7a-5460df8184b2")
+	)
+	(wire
+		(pts
 			(xy 95.25 181.61) (xy 66.04 181.61)
 		)
 		(stroke
@@ -4271,7 +4473,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 213.36) (xy 68.58 229.87)
+			(xy 66.04 181.61) (xy 66.04 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4843,13 +5045,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 181.61) (xy 66.04 226.06)
+			(xy 67.31 213.36) (xy 68.58 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4350c0dc-35f8-4ef8-b03e-b7ef8672a046")
+		(uuid "432470a6-989c-4a70-806c-652ef1cb5d01")
 	)
 	(wire
 		(pts
@@ -4901,6 +5103,16 @@
 			(type default)
 		)
 		(uuid "444f3002-4641-4faf-8459-2d7945681af0")
+	)
+	(wire
+		(pts
+			(xy 63.5 207.01) (xy 63.5 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44631f8c-1ba4-4772-af1c-b257bb9e3c56")
 	)
 	(wire
 		(pts
@@ -5299,6 +5511,17 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 123.19) (xy 62.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 219 255 1)
+		)
+		(uuid "59cbb183-1734-4a11-a14c-a7acf2edee1b")
+	)
+	(wire
+		(pts
 			(xy 361.95 214.63) (xy 370.84 214.63)
 		)
 		(stroke
@@ -5447,6 +5670,16 @@
 			(type default)
 		)
 		(uuid "5f76264f-0e4a-4105-9560-628e6f416d5e")
+	)
+	(wire
+		(pts
+			(xy 64.77 118.11) (xy 64.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa08dc3-ba19-4ed4-a01e-e2aec404f7cc")
 	)
 	(wire
 		(pts
@@ -5721,7 +5954,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 71.12 128.27)
+			(xy 39.37 128.27) (xy 64.77 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5862,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774f01cf-23a4-43d7-8aaf-89ee48472b3e")
+	)
+	(wire
+		(pts
 			(xy 119.38 78.74) (xy 119.38 67.31)
 		)
 		(stroke
@@ -5953,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 179.07) (xy 63.5 215.9)
+			(xy 63.5 179.07) (xy 63.5 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6074,6 +6317,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 207.01) (xy 67.31 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872b4b19-52d9-465c-8380-0a361a30d28b")
+	)
+	(wire
+		(pts
 			(xy 231.14 57.15) (xy 231.14 53.34)
 		)
 		(stroke
@@ -6111,6 +6364,16 @@
 			(type default)
 		)
 		(uuid "8ad0b1f5-7bff-4c77-ae9a-7d9fe0170214")
+	)
+	(wire
+		(pts
+			(xy 64.77 207.01) (xy 64.77 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad9064e-b795-4ad6-a069-1ef5ba87c4b8")
 	)
 	(wire
 		(pts
@@ -6191,16 +6454,6 @@
 			(type default)
 		)
 		(uuid "8f0bc07c-7a81-4f10-8a17-8d024469ffd4")
-	)
-	(wire
-		(pts
-			(xy 64.77 180.34) (xy 64.77 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f17c292-579f-4b27-8218-6a14f1d1b70c")
 	)
 	(wire
 		(pts
@@ -6465,6 +6718,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 213.36) (xy 68.58 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0de653-450d-44c6-a872-9fca672ffc27")
+	)
+	(wire
+		(pts
 			(xy 342.9 55.88) (xy 342.9 52.07)
 		)
 		(stroke
@@ -6605,6 +6868,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 50.8) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ef6993-4d4a-4074-9766-f31ef5ed1b53")
+	)
+	(wire
+		(pts
 			(xy 294.64 205.74) (xy 303.53 205.74)
 		)
 		(stroke
@@ -6625,7 +6898,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 182.88) (xy 67.31 213.36)
+			(xy 64.77 180.34) (xy 64.77 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6642,6 +6915,16 @@
 			(type default)
 		)
 		(uuid "aa587d28-9131-4264-a292-52585103b033")
+	)
+	(wire
+		(pts
+			(xy 158.75 59.69) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab8ad23-f970-4971-9d85-b19bae13097c")
 	)
 	(wire
 		(pts
@@ -6920,6 +7203,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 59.69) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b1712e-5fd0-44d5-a58b-eefa3eaa46ca")
+	)
+	(wire
+		(pts
 			(xy 134.62 77.47) (xy 168.91 77.47)
 		)
 		(stroke
@@ -7010,7 +7303,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 59.69 130.81)
+			(xy 39.37 130.81) (xy 48.26 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7032,7 +7325,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 123.19) (xy 62.23 123.19)
+			(xy 39.37 123.19) (xy 48.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7415,16 +7708,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 213.36) (xy 68.58 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d712f48e-ec95-494d-871c-e6f758b1a573")
-	)
-	(wire
-		(pts
 			(xy 91.44 138.43) (xy 96.52 138.43)
 		)
 		(stroke
@@ -7432,6 +7715,17 @@
 			(type default)
 		)
 		(uuid "d7bf5d12-8ddf-4553-8589-cec13c57fdae")
+	)
+	(wire
+		(pts
+			(xy 64.77 128.27) (xy 71.12 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 204 0 1)
+		)
+		(uuid "d86f9122-3cc0-4bcd-8f12-72349907a043")
 	)
 	(wire
 		(pts
@@ -7953,6 +8247,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 182.88) (xy 67.31 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcd03bf-94dc-41cd-971b-88073fab77fc")
+	)
+	(wire
+		(pts
 			(xy 133.35 38.1) (xy 133.35 68.58)
 		)
 		(stroke
@@ -8002,7 +8306,7 @@
 		(uuid "17cb6e9a-9152-4c91-b433-826175a10836")
 	)
 	(label "+170V"
-		(at 158.75 66.04 270)
+		(at 158.75 68.58 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8020,6 +8324,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c400762-73ab-47e1-aaf9-c5ee7ca2f977")
+	)
+	(label "+170V"
+		(at 40.64 29.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36f0e835-5821-48a4-a866-a3edf3e2e75d")
 	)
 	(label "+170V"
 		(at 393.7 218.44 270)
@@ -8050,16 +8364,6 @@
 			(justify right bottom)
 		)
 		(uuid "724d6901-1f1f-4c97-8594-f4259f17080a")
-	)
-	(label "+170V"
-		(at 71.12 278.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac744d07-9bb1-4e6e-8780-35e89d7e94c2")
 	)
 	(label "+170V"
 		(at 157.48 228.6 270)
@@ -9097,6 +9401,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe028d0-effd-4749-aaa1-d1259fd70bd4")
+		(property "Reference" "TP1_A1"
+			(at 66.04 202.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 204.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4ce82a5-8679-4b64-8848-f9b5083df093")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP1_A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 162.56 170.18 90)
 		(unit 1)
@@ -9331,6 +9714,85 @@
 			(project "nixie_clock"
 				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28114f65-32e2-487d-b545-405d1728f25f")
+		(property "Reference" "TP_RCLK1"
+			(at 50.8 126.2379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 128.7779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6dd293c-cfc2-4fa1-bd47-88cf41a4e277")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP_RCLK1")
 					(unit 1)
 				)
 			)
@@ -9997,6 +10459,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f4949f-db0e-4997-8369-b357823ee8f6")
+		(property "Reference" "TP_SRCLK1"
+			(at 50.8 118.6179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 121.1579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f157dfab-db8a-4bda-8e24-76cc5cfe4b6c")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP_SRCLK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 157.48 125.73 0)
 		(unit 1)
@@ -10474,6 +11015,164 @@
 			(project "nixie_clock"
 				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "472a7ead-c077-42cd-87dc-d6fb42b4665f")
+		(property "Reference" "TP1_D1"
+			(at 69.85 202.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.85 204.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 72.39 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae433ee4-b912-4e87-abea-abddcd7d4724")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP1_D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ac4baf-676e-444e-a8c0-7c87fae060cc")
+		(property "Reference" "TP_170V1"
+			(at 43.18 24.6379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 43.18 27.1779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "307a545c-ed12-48f3-8536-deb2170bb6a2")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP_170V1")
 					(unit 1)
 				)
 			)
@@ -11351,7 +12050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 62.23 180)
+		(at 158.75 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11362,7 +12061,7 @@
 		(fields_autoplaced yes)
 		(uuid "594996a1-6cd8-4aaa-be0e-ca7375e044b9")
 		(property "Reference" "R2"
-			(at 161.29 60.9599 0)
+			(at 161.29 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11373,7 +12072,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 161.29 63.4999 0)
+			(at 161.29 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11384,7 +12083,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 160.528 62.23 90)
+			(at 160.528 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11395,7 +12094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 62.23 0)
+			(at 158.75 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11406,7 +12105,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 62.23 0)
+			(at 158.75 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12668,6 +13367,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 21.59 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8045a80f-f02c-474d-b946-2a981679c73b")
+		(property "Reference" "TP_GND1"
+			(at 24.13 24.6379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 24.13 27.1779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 21.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2b84931-dd73-4ef6-92d4-7627e11fd223")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP_GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 21.59 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8094ebd3-055a-4c0e-afac-11d58d37d4c9")
+		(property "Reference" "#PWR055"
+			(at 21.59 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 21.59 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 21.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8f5a055-808f-4d63-b0fb-7ce0e20214ad")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 118.11 158.75 0)
 		(unit 1)
@@ -12819,85 +13675,6 @@
 			(project "nixie_clock"
 				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 63.5 278.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "866dab5e-b6fa-4198-a862-d38e3e158661")
-		(property "Reference" "#PWR013"
-			(at 57.15 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 59.69 278.1299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 63.5 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2d343fb-63a7-4c14-b317-ae78521705b3")
-		)
-		(instances
-			(project "nixie_clock"
-				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14006,6 +14783,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9dff806-00cb-4f4c-9651-088361e0434f")
+		(property "Reference" "TP1_C1"
+			(at 68.58 202.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 204.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 71.12 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efd572d0-cb6e-4761-a209-12d7f0dc8adb")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP1_C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 80.01 170.18 90)
 		(unit 1)
@@ -14079,6 +14935,85 @@
 			(project "nixie_clock"
 				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 64.77 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeda97fd-d338-4235-aef9-24fd3a0049b2")
+		(property "Reference" "TP1_B1"
+			(at 67.31 202.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 204.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "018b0074-a8af-4083-a1be-00b7e485ee58")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP1_B1")
 					(unit 1)
 				)
 			)
@@ -15655,6 +16590,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8b517e-2376-45a3-a4c2-b7a2453eec36")
+		(property "Reference" "TP_SER1"
+			(at 55.88 113.5379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 116.0779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 58.42 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9733202f-beeb-4343-90b0-9c45e264128a")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP_SER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 91.44 93.98 0)
 		(unit 1)
@@ -16054,6 +17068,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7611c36-b62d-4ecc-b5ca-91b3cfc043cf")
+		(property "Reference" "TP_NX1_A1"
+			(at 162.56 46.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 162.56 48.7679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af4f6a30-76c2-453f-bf26-1964d924ccbd")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
+					(reference "TP_NX1_A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 204.47 193.04 0)
 		(unit 1)
@@ -16284,86 +17377,6 @@
 			(project "nixie_clock"
 				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 67.31 278.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff85ec0b-3200-47e8-9321-72c447ad07b8")
-		(property "Reference" "C10Maybe1"
-			(at 67.31 270.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 67.31 273.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 63.5 279.0952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 67.31 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d678d628-64e0-4c99-a8b9-40dde1de13c3")
-		)
-		(pin "1"
-			(uuid "d6808a68-8737-432a-9b95-92b72e2882c7")
-		)
-		(instances
-			(project "nixie_clock"
-				(path "/8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
-					(reference "C10Maybe1")
 					(unit 1)
 				)
 			)

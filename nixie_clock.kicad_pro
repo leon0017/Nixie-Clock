@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.0,
+          "height": 1.8,
+          "width": 1.07
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -206,7 +212,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +243,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -528,7 +543,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -665,7 +680,7 @@
         "uuid": "8e6d9afb-52b4-468f-ba2a-838b9fc49cc7"
       }
     ],
-    "used_designators": "#PWR1-54,A1-2,C1-10,C101,C10Maybe1,D1-2,J1-2,NX1-6,R1-7,RA2,RB2,RG2,U1-9",
+    "used_designators": "#PWR1-60,A1-2,C1-10,C101,C10Maybe1,C_NX2-6,D1-2,J1-2,NX1-6,R1-7,RA2,RB2,RG2,TP1,TP1_A1,TP1_B1,TP1_C1,TP1_D1,TP_170V1,TP_GND1,TP_NX1_A1,TP_RCLK1,TP_SER1,TP_SRCLK1,U1-9",
     "variants": []
   },
   "sheets": [
